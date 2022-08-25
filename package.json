@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@project-serum/serum-dev-tools": "^1.0.5",
-    "@raydium-io/raydium-sdk": "^1.1.0-beta.5",
+    "@raydium-io/raydium-sdk": "file:./../raydium-sdk/lib",
     "@solana/web3.js": "^1.43.1",
     "bn.js": "^5.2.1",
     "bs58": "^5.0.0",
