@@ -24,7 +24,7 @@ export async function addLiquidity(params: AddLiquidity) {
   const pairTokenData = await raydium!.liquidity.computePairAmount({
     poolId,
     amount: inputTokenAmount,
-    anotherCurrency: raydium!.mintToToken(isInputTokenA ? poolInfo.quoteMint : poolInfo.baseMint),
+    anotherToken: raydium!.mintToToken(isInputTokenA ? poolInfo.quoteMint : poolInfo.baseMint),
     slippage: new Percent(1, 100),
   })
 

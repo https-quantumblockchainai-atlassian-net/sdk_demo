@@ -82,6 +82,7 @@ export async function createFarm(params: CreateFarm) {
         rewardPerSecond,
         rewardOpenTime,
         rewardEndTime,
+        rewardType: 'Standard SPL', //Option tokens or Standard SPL
       },
     ],
   })
